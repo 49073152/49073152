@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+ <link href="meu css.css">
     <title>formulário</title>
 </head>
 <body>
@@ -16,13 +16,26 @@
     <form>
         <fieldset>
             <div>
-                 <label>nome completo</label>
-                 <input type="text" name="nome completo" id="nome completo">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="Nome">nome completo:</label>
+                            <td><input type="text" name="nome completo" id="nome completo"
+                            placeholder="José Maria"></td>
+                        </td>
+                    </tr>
+                </table>
             </div>
-
         <div>
-            <label>Email</label>
-            <input type="email" name="Email" id="Email">
+            <table>
+                <tr>
+                    <td>
+                        <label for="nome">Email:</label>
+                        <td><input type="text" name="Email" id="Email"
+                        placeholder="Exemplo@gmail.com"></td>
+                    </td>
+                </tr>
+            </table>
         </div>
             <label>sexo</label>
             <label>
