@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curriculo vitae</title>
+</head>
+<body>
+
+    <style>
+        #principal{
+            border: solid 1px black;
+            width: 80%;
+            margin: 0 auto;
+            padding: 5px;
+        }
+
+        fieldset{
+            margin-bottom:10px ;
+        }
+
+        legend{
+            border: solid 1px;
+            padding: 5px;
+            font-weight: bold;
+            border-radius: 20px;
+            background: lightblue;
+        }
+
+        .minhafoto{
+            margin: 5px;
+            border:  4px solid black;
+        }
+
+        .nome{
+            padding: 10px;
+            width: 200px;
+            height: 150px;
+            position: relative;
+            margin-left: 10px;
+            float: left;
+        }
+
+        .idioma{
+            float: left;
+            height: 115px;
+        }
+    </style>
+
+         <div id="principal" style="display:inline-block;vertical-align:top;">
+             <img src="minhafoto.jpg" width="150" position="left">
+             <div style="display:inline-block;">
+                <h2 class="nome">Ian Pelentir Ramos</h2>
+            </div>
+        
+        <fieldset>
+               <ul>
+                    <li>celuler:(69)993663808</li>
+                    <li>Email: ianpelentir17@gmail.com</li>
+                    <li>Endereço: Jardim Paulista rua Barretos n 2977</li>
+                    <li>Nacionalidade: Brasileiro</li>
+                    <li>link: </li>
+               </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Experiencia</legend>
+            <ul>
+                <li>atualmente repositor de sessão</li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Educação</legend>
+            <ul>
+                <li>2019 tecnico em Segurança do trabalho</li>
+                <h6>Instituto Federal de Rondonia ifro</h6>
+            </ul>
+        </fieldset>
+
+        <fieldset class="idioma">
+                <legend>idioma</legend>
+                <ul>
+                    <li>Ingles basico</li>
+                    <li>Espanhol basico</li>
+                </ul>
+        </fieldset>
+
+        <fieldset class="habilidades">
+                <legend>habilidades</legend>
+                <ul>
+                    <li>objetivo</li>
+                    <li>paciente</li>
+                    <li>Motivação</li>
+                </ul>
+        </fieldset>
+    </div>
+</body>
+</html>
